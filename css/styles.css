@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-top: 200px; /* ou ajuste selon la hauteur réelle de ton header */
+}
+
+.logo-usmt{
+    margin: 10px;
+    max-height: 100px;
+}
+
+.nav-link{
+    font-size: 120%;
+    position: relative;
+    transition: all 300ms ease;
+    text-decoration-color: #ffffff;
+    white-space: nowrap;
+}
+
+
+.nav-link:not(.no-underline-animation)::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background: #000000;
+    transition: width .2s;
+  }
+  
+.nav-link:not(.no-underline-animation):hover::after {
+    width: 100%;
+}
+
+.nav-link:not(.no-underline-animation) {
+    position: relative;
+    transition: all 300ms ease;
+    text-decoration-color: #ffffff;
+    white-space: nowrap;
+}
+
+.nav-link:not(.no-underline-animation)::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background: #000000;
+    transition: width .2s;
+}
+
+.nav-link:not(.no-underline-animation):hover::after {
+    width: 100%;
+}
+
+/* Animation underline aussi pour les dropdown-item */
+.dropdown-item {
+    position: relative;
+    transition: all 300ms ease;
+    text-decoration: none;
+}
+
+.dropdown-item::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background: #000000;
+    transition: width .2s;
+}
+
+.dropdown-item:hover::after {
+    width: 100%;
+}
