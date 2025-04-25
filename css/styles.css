@@ -9,7 +9,14 @@ html {
 }
 
 body {
-    margin-top: 200px; /* ou ajuste selon la hauteur réelle de ton header */
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header css */
+.navber{
+    margin-bottom: 100%;
 }
 
 .logo-usmt{
@@ -84,3 +91,138 @@ body {
 .dropdown-item:hover::after {
     width: 100%;
 }
+
+/* Accueil */
+.banniere-image {
+    height: 40vh;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+}
+
+.card-news {
+    width: 190px;
+    height: 190px;
+    border-radius: 44px;
+    background: lightgrey;
+    background: linear-gradient(145deg, #ff6b6b, #d43636);
+    box-shadow: 2px 3px 3px #ba2f2f, 
+    2px 3px 3px #ff4949;
+    transition: transform 0.3s ease;
+}
+
+.card-news:hover{
+    transform: scale(1.1);
+}
+
+.avatar {
+width: 45px;
+height: 45px;
+display: inline-block;
+background-color: rgba(255,255,255,0.9);
+margin: 30px 15px 20px 25px;
+border-radius: 14px;
+}
+
+.avatar i {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 33px;
+    width: 85px;
+}
+
+.info-1, .info-2 {
+    display: inline-block;
+    height: 20px;
+    width: 100%;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.9);
+}
+
+.info-2 {
+    height: 11px;
+    width: 50%;
+    border-radius: 3px;
+}
+
+.content-1 {
+    width: 80%;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.9);
+    height: 40px;
+    margin: auto;
+}
+
+.content-2 {
+    width: 60%;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.9);
+    height: 18px;
+    margin: 10px 0 0 20px;
+}
+
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+.sport-card {
+    background-color: #faf8f5;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+  
+.sport-card:hover {
+    transform: scale(1.02);
+}
+  
+.sport-card img {
+    object-fit: cover;
+    height: 240px;
+    width: 100%;
+}
+  
+.btn-sport {
+    background-color: #a3582a;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+    border: none;
+}
+  
+.btn-sport:hover {
+    background-color: #8c4820;
+    color: #fff;
+}
+
+
+.custom-btn {
+    border-radius: 2rem; /* pour l'effet très arrondi */
+    background-color: #a3582a;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+    border: none;
+}
+  
+.custom-btn:hover {
+    background-color: #8c4820;
+    color: #fff;
+ }
