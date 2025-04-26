@@ -116,12 +116,12 @@ body {
 }
 
 .avatar {
-width: 45px;
-height: 45px;
-display: inline-block;
-background-color: rgba(255,255,255,0.9);
-margin: 30px 15px 20px 25px;
-border-radius: 14px;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    background-color: rgba(255,255,255,0.9);
+    margin: 30px 15px 20px 25px;
+    border-radius: 14px;
 }
 
 .avatar i {
@@ -225,4 +225,17 @@ border-radius: 14px;
 .custom-btn:hover {
     background-color: #8c4820;
     color: #fff;
- }
+}
+
+#gouvernance{
+    background-image: url("../assets/assets_club/background_gouvernance.png");
+}
+
+.card{
+    background-color: #faf8f5;
+    width: 250px;
+}
+
+.card-partner{
+    background-color: #faf8f5;
+}

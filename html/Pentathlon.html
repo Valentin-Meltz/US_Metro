@@ -21,7 +21,7 @@
 <body>
     <!-- Header and Navbar -->
     <header>
-        <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <div class="d-flex align-items-center">
                     <a class="navbar-brand m-0 me-2" href="#">
@@ -37,20 +37,20 @@
                 <div class="collapse navbar-collapse justify-content-end mt-3 mt-lg-0" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link fw-bold" href="../Accueil.html">Accueil</a>
+                            <a class="nav-link fw-bold" href="./Accueil.html">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-bold" href="./Pentathlon.html">Le Pentathlon</a>
+                            <a class="nav-link fw-bold" href="./html/Pentathlon.html">Le Pentathlon</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle fw-bold no-underline-animation" href="" id="clubDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Le Club
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="clubDropdown">
-                              <li><a class="dropdown-item" href="./Histoire.html">Histoire de la section</a></li>
-                              <li><a class="dropdown-item" href="./Gouvernance.html">Gouvernance</a></li>
-                              <li><a class="dropdown-item" href="./Valeurs.html">Notre raison d'être</a></li>
-                              <li><a class="dropdown-item" href="./Partenaires.html">Nos partenaires</a></li>
+                              <li><a class="dropdown-item" href="./html/Histoire.html">Histoire de la section</a></li>
+                              <li><a class="dropdown-item" href="./html/Gouvernance.html">Gouvernance</a></li>
+                              <li><a class="dropdown-item" href="./html/Valeurs.html">Notre raison d'être</a></li>
+                              <li><a class="dropdown-item" href="./html/Partenaires.html">Nos partenaires</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -58,15 +58,15 @@
                               Pratiquer
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="pratiquerDropdown">
-                              <li><a class="dropdown-item" href="./Lieux.html">Nos sites d'entraînements</a></li>
-                              <li><a class="dropdown-item" href="./Entraineurs.html">Nos entraîneurs</a></li>
+                              <li><a class="dropdown-item" href="./html/Lieux.html">Nos sites d'entraînements</a></li>
+                              <li><a class="dropdown-item" href="./html/Entraineurs.html">Nos entraîneurs</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-bold" href="./Inscriptions.html">S'inscrire</a>
+                            <a class="nav-link fw-bold" href="./html/Inscriptions.html">S'inscrire</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-bold" href="./Contact.html">Nous contacter</a>
+                            <a class="nav-link fw-bold" href="./html/Contact.html">Nous contacter</a>
                         </li>
                     </ul>
                 </div>
@@ -74,7 +74,44 @@
         </nav>
     </header>
 
-    <footer class="bg-light text-center text-lg-start mt-5">
+    <div class="container py-5">
+        <section class="mb-5">
+            <h1 class="mb-4">Le Pentathlon Moderne</h1>
+            <p>Le pentathlon moderne, ce sont cinq disciplines réunies en un seul et même sport :</p>
+            <ul class="ms-4">
+                <li>La course à pied (demi-fond et fond)</li>
+                <li>Le tir laser</li>
+                <li>La natation</li>
+                <li>L'escrime (épée)</li>
+                <li>Le parcours d'obstacle et uniquement pour les masters, l'équitation (saut d'obstacles)</li>
+            </ul>
+            <p class="mt-4">
+                Les compétitions peuvent réunir deux (laser-run, biathlé), trois (triathlé), quatre (tétrathlon) ou cinq épreuves (pentathlon). 
+                C'est pourquoi vous êtes en partie libre d'organiser le planning de vos entraînements et de ne pratiquer, par exemple, que la course à pied et la natation. 
+                Contrairement à ce que l'on pourrait croire, le pentathlon moderne n'est pas réservé à l'élite sportive. 
+                Il n'en demeure pas moins une école de l'exigence où vous pourrez développer harmonieusement votre concentration, votre agilité, votre précision, votre endurance et votre vitesse 
+                sans sacrifier le plaisir, l'entraide et la bonne humeur.
+            </p>
+        </section>
+
+        <section class="mb-5 text-center">
+            <div class="ratio ratio-4x3" style="max-width: 600px; margin: 0 auto;">
+                <iframe src="https://www.youtube.com/embed/Hn_FSqT3onc?start=1" title="PENTATHLON MODERNE 5 sports" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="mb-4">Règlement</h2>
+            <p>
+                Vous pouvez consulter le règlement des compétitions sur le site de la Fédération Française de Pentathlon Moderne (FFPM) en cliquant sur 
+                <a href="https://ffpentathlon.fr/reglement-des-competitions-uipm-2025/" target="_blank">ce lien</a> 
+                ou bien sur le site de l'Union Internationale de Pentathlon Moderne (UIPM) en cliquant sur 
+                <a href="https://www.uipmworld.org/uipm-rules-and-regulations" target="_blank">ce lien</a>.
+            </p>
+        </section>
+    </div>
+
+    <footer class="bg-light text-center text-lg-start">
         <div class="container py-4">
             <div class="row">
                 <!-- Colonne 1 : Logos et titre -->
@@ -92,8 +129,8 @@
                 <div class="col-md-4 text-center mb-4 mb-md-0"> <!-- Nos Réseaux -->
                     <h5 class="fw-bold">Nos Réseaux</h5>
                     <ul class="list-unstyled mt-2 text-center">
-                        <li><i class="bi bi-instagram me-2"></i><a>Instagram</a></li>
-                        <li class="mt-2"><i class="bi bi-facebook me-2"></i><a>Facebook</a></li>
+                        <li><a class="text-decoration-none link-dark"href="https://www.instagram.com/pentathlon.usmt?igsh=eGY2YWh2a3NicmIw"><i class="bi bi-instagram me-2"></i>Instagram</li></a>
+                        <li class="mt-2"><a class="text-decoration-none link-dark" href="https://www.facebook.com/USMTPENTATHLONMODERNE/"><i class="bi bi-facebook me-2"></i>Facebook</li></a>
                     </ul>
                 </div>
         
@@ -101,7 +138,7 @@
                 <div class="col-md-4"> <!-- Contact -->
                     <h5 class="fw-bold text-center">Contact</h5>
                     <p class="mt-2 text-center">
-                        Adresse email : <a href="mailto:pentathlon.usmt@yahoo.fr">pentathlon.usmt@yahoo.fr</a>
+                        Adresse email : <a class="link-dark" href="mailto:pentathlon.usmt@yahoo.fr">pentathlon.usmt@yahoo.fr</a>
                     </p>
                 </div>
             </div>
