@@ -231,9 +231,8 @@ body {
     background-image: url("../assets/assets_club/background_gouvernance.png");
 }
 
-.card{
-    background-color: #faf8f5;
-    width: 250px;
+.card-gouv{
+    width: 75%;
 }
 
 .card-partner{
