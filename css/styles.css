@@ -304,3 +304,14 @@ input:focus, textarea:focus {
     font-size: 1rem !important;
   }
 }
+
+.hover-shadow:hover {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.card img {
+    transition: transform 0.4s ease;
+}
+.card img:hover {
+    transform: scale(1.08);
+}
