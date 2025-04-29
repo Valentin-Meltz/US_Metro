@@ -294,3 +294,13 @@ input:focus, textarea:focus {
         transform: translateY(-0.1em);
     }
 }
+
+
+@media (max-width: 576px) {
+  .navbar .logo-usmt {
+    max-height: 40px !important;
+  }
+  .navbar .site-title {
+    font-size: 1rem !important;
+  }
+}
