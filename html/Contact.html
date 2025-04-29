@@ -42,9 +42,7 @@
                             <a class="nav-link fw-bold" href="./Pentathlon.html">Le Pentathlon</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle fw-bold no-underline-animation" href="" id="clubDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Le Club
-                            </a>
+                            <a class="nav-link dropdown-toggle fw-bold no-underline-animation" href="./Club.html" id="clubDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Le Club</a>
                             <ul class="dropdown-menu" aria-labelledby="clubDropdown">
                               <li><a class="dropdown-item" href="./Club.html#histoire">Histoire de la section</a></li>
                               <li><a class="dropdown-item" href="./Club.html#Gouvernance">Gouvernance</a></li>
@@ -53,9 +51,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle fw-bold no-underline-animation" href="" id="pratiquerDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Pratiquer
-                            </a>
+                            <a class="nav-link dropdown-toggle fw-bold no-underline-animation" href="./Pratiquer.html" id="pratiquerDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pratiquer</a>
                             <ul class="dropdown-menu" aria-labelledby="pratiquerDropdown">
                               <li><a class="dropdown-item" href="./Pratiquer.html">Nos sites d'entraînements</a></li>
                               <li><a class="dropdown-item" href="./Pratiquer.html">Nos entraîneurs</a></li>
@@ -75,81 +71,93 @@
 
     <div class="container py-5">
         <div class="row justify-content-center align-items-stretch">
-          <!-- Formulaire de contact -->
-          <div class="col-md-6 d-flex">
-            <div class="p-4 border rounded w-100 d-flex flex-column h-100">
-              <h2 class="title text-center py-3">Contactez nous</h2>
-              <form class="flex-grow-1 d-flex flex-column justify-content-between">
-                <div class="d-flex flex-column flex-grow-1">
-                  <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Votre nom" required>
-                  </div>
-                  <div class="mb-3">
-                    <input type="email" class="form-control" placeholder="Votre email" required>
-                  </div>
-                  <div class="mb-3 d-flex flex-grow-1">
-                    <textarea class="form-control w-100 h-100" style="resize: none;" placeholder="Votre message" required></textarea>
-                  </div>
+            <div class="col-md-6 d-flex py-3">
+                <div class="p-4 border rounded w-100 d-flex flex-column h-100">
+                    <h2 class="title text-center py-3">Contactez nous</h2>
+                    <form class="flex-grow-1 d-flex flex-column justify-content-between">
+                        <div class="d-flex flex-column flex-grow-1">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Votre nom" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Votre email" required>
+                            </div>
+                            <div class="mb-3 d-flex flex-grow-1">
+                                <textarea class="form-control w-100 h-100" style="resize: none;" placeholder="Votre message" required></textarea>
+                            </div>
+                        </div>
+                        <div class="d-grid d-flex justify-content-center">
+                            <button>
+                                <div class="svg-wrapper-1">
+                                    <div class="svg-wrapper">
+                                        <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                        width="24"
+                                        height="24"
+                                        >
+                                        <path fill="none" d="M0 0h24v24H0z"></path>
+                                        <path
+                                            fill="currentColor"
+                                            d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                                        ></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span>Envoyer</span>
+                            </button>
+                        </div>
+                    </form>
                 </div>
-                <div class="d-grid">
-                  <button type="submit" class="btn btn-secondary fw-bold mt-3">Submit</button>
-                </div>
-              </form>
             </div>
-          </div>
       
-          <!-- Réseaux sociaux et carte -->
-          <div class="col-md-6 d-flex">
-            <div class="p-4 border rounded w-100 h-100 d-flex flex-column justify-content-between">
-              <div>
-                <h2 class="title text-center py-3">Nos réseaux</h2>
-                <p class="text-center"><i class="bi bi-instagram me-2 fs-4"></i>Instagram</p>
-                <p class="text-center"><i class="bi bi-facebook me-2 fs-4"></i>Facebook</p>
-              </div>
-              <div>
-                <h2 class="title text-center py-3">Nous trouver</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=..."
-                  width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
-                </iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-    <footer class="bg-light text-center text-lg-start mt-5">
+            <div class="col-md-6 d-flex py-3">
+                <div class="p-4 border rounded w-100 h-100 d-flex flex-column justify-content-between">
+                    <div class="mb-4">
+                        <h2 class="title text-center py-3">Nos réseaux</h2>
+                        <div class="container d-flex justify-content-evenly">
+                            <a class="text-center text-decoration-none link-dark d-flex align-items-center" href="https://www.instagram.com/pentathlon.usmt?igsh=eGY2YWh2a3NicmIw"><i class="bi bi-instagram me-2 fs-4"></i>Instagram</a>
+                            <a class="text-center text-decoration-none link-dark d-flex align-items-center" href="https://www.facebook.com/USMTPENTATHLONMODERNE/"><i class="bi bi-facebook me-2 fs-4"></i>Facebook</a>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="title text-center py-3">Nous trouver</h2>
+                        <iframe class="rounded" src="https://www.google.com/maps/embed?pb=..." width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center text-lg-start">
         <div class="container py-4">
             <div class="row">
-                <!-- Colonne 1 : Logos et titre -->
-                <div class="col-md-4 mb-4 mb-md-0"> <!-- US Métro Pentathlon -->
+                <div class="col-md-4 mb-4 mb-md-0">
                     <h5 class="fw-bold text-center">US Métro Pentathlon</h5>
-                    <div class="d-flex justify-content-center gap-3 mt-2">
-                        <!-- Tu ajouteras les logos ici -->
+                    <div class="d-flex justify-content-center gap-3 mt-2 py-2">
                         <img src="../assets/Logo.png" alt="Logo 1" height="80">
                         <img src="../assets/Logo-FFPM--scaled.jpg" alt="Logo 2" height="80">
                         <img src="../assets/uipm_institutionallogo_0-240x288.png" alt="Logo 3" height="80">
                     </div>
                 </div>
         
-                <!-- Colonne 2 : Réseaux sociaux -->
-                <div class="col-md-4 text-center mb-4 mb-md-0"> <!-- Nos Réseaux -->
+                <div class="col-md-4 text-center mb-4 mb-md-0">
                     <h5 class="fw-bold">Nos Réseaux</h5>
                     <ul class="list-unstyled mt-2 text-center">
-                        <li><i class="bi bi-instagram me-2"></i><a>Instagram</a></li>
-                        <li class="mt-2"><i class="bi bi-facebook me-2"></i><a>Facebook</a></li>
+                        <li><a class="text-decoration-none link-dark" href="https://www.instagram.com/pentathlon.usmt?igsh=eGY2YWh2a3NicmIw"><i class="bi bi-instagram me-2"></i>Instagram</a></li>
+                        <li class="mt-2"><a class="text-decoration-none link-dark" href="https://www.facebook.com/USMTPENTATHLONMODERNE/"><i class="bi bi-facebook me-2"></i>Facebook</a></li>
                     </ul>
                 </div>
         
-                <!-- Colonne 3 : Contact -->
-                <div class="col-md-4"> <!-- Contact -->
+                <div class="col-md-4">
                     <h5 class="fw-bold text-center">Contact</h5>
                     <p class="mt-2 text-center">
-                        Adresse email : <a href="mailto:pentathlon.usmt@yahoo.fr">pentathlon.usmt@yahoo.fr</a>
+                        Adresse email : <a class="link-dark" href="mailto:pentathlon.usmt@yahoo.fr">pentathlon.usmt@yahoo.fr</a>
                     </p>
                 </div>
             </div>
       
-            <!-- Copyright -->
             <div class="text-center pt-4">
                 <small>Copyright © 2025 - US Métro Pentathlon.</small>
             </div>
@@ -157,7 +165,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    
     <script src="../js/header.js"></script>
 </body>
 </html>
