@@ -309,9 +309,9 @@ input:focus, textarea:focus {
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
     transition: box-shadow 0.3s ease-in-out;
 }
-.card img {
+.card-gouv img {
     transition: transform 0.4s ease;
 }
-.card img:hover {
+.card-gouv img:hover {
     transform: scale(1.08);
 }
