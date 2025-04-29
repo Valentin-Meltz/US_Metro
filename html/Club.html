@@ -16,6 +16,19 @@
 
     <link rel="stylesheet" href="../css/styles.css">
 
+    <style>
+        .hover-shadow:hover {
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            transition: box-shadow 0.3s ease-in-out;
+        }
+        .card img {
+            transition: transform 0.4s ease;
+        }
+        .card img:hover {
+            transform: scale(1.08);
+        }
+    </style>
+
     <title>US Métro Pentathlon</title>
 </head>
 <body>
@@ -109,33 +122,45 @@
             </div>
 
             <div id="gouvernance" class="row align-items-center mt-5 py-4">
-                <div class="col-md-4 d-flex justify-content-center py-3 order-2 order-md-1">
-                    <div class="card card-gouv h-100 text-center border border-2 border-secondary">
-                        <img src="../assets/assets_club/caroline.png" class="card-img-top rounded-circle mx-auto mt-4" style="width: 150px; height: 150px; object-fit: cover;" alt="Frédéric Lavaud">
-                        <div class="card-body">
-                            <h5 class="card-title">Caroline Orlianges</h5>
-                            <p class="card-text">Vice Présidente</p>
-                            <a href="tel:0609773837" class="card-text text-decoration-none link-dark">Tel : +33 6 09 77 38 37</a>
+                <div class="col-md-4 d-flex justify-content-center py-3 px-2 order-2 order-md-1">
+                    <div class="card h-100 w-75 border-0 shadow-sm rounded-4 hover-shadow" style="min-height: 100%;">
+                        <div class="d-flex flex-column justify-content-between h-100 p-4 text-center">
+                            <div class="mx-auto mb-3" style="width: 120px; height: 120px; border-radius: 50%; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                                <img src="../assets/assets_club/caroline.png" alt="Caroline Orlianges" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div>
+                                <h5 class="fw-bold mb-1">Caroline Orlianges</h5>
+                                <p class="text-muted mb-2">Vice Présidente</p>
+                                <a href="tel:0609773837" class="text-decoration-none fw-semibold link-dark">+33 6 09 77 38 37</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex justify-content-center py-3 order-1 order-md-2">
-                    <div class="card card-gouv h-100 text-center border border-2 border-secondary">
-                        <img src="../assets/assets_club/frederic.png" class="card-img-top rounded-circle mx-auto mt-4" style="width: 150px; height: 150px; object-fit: cover;" alt="Frédéric Lavaud">
-                        <div class="card-body">
-                            <h5 class="card-title">Frédéric Lavaud</h5>
-                            <p class="card-text">Président</p>
-                            <a href="tel:0609773837" class="card-text text-decoration-none link-dark">Tel : +33 6 09 77 38 37</a>
+                <div class="col-md-4 d-flex justify-content-center py-3 px-2 order-1 order-md-2">
+                    <div class="card h-100 w-75 border-0 shadow-sm rounded-4 hover-shadow" style="min-height: 100%;">
+                        <div class="d-flex flex-column justify-content-between h-100 p-4 text-center">
+                            <div class="mx-auto mb-3" style="width: 120px; height: 120px; border-radius: 50%; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                                <img src="../assets/assets_club/frederic.png" alt="Frédéric Lavaud" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div>
+                                <h5 class="fw-bold mb-1">Frédéric Lavaud</h5>
+                                <p class="text-muted mb-2">Président</p>
+                                <a href="tel:0609773837" class="text-decoration-none fw-semibold link-dark">+33 6 09 77 38 37</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex justify-content-center py-3 order-3 order-md-3">
-                    <div class="card card-gouv h-100 text-center border border-2 border-secondary">
-                        <img src="../assets/assets_club/jerome.png" class="card-img-top rounded-circle mx-auto mt-4" style="width: 150px; height: 150px; object-fit: cover;" alt="Jérôme Meltz">
-                        <div class="card-body">
-                            <h5 class="card-title">Jérôme Meltz</h5>
-                            <p class="card-text">Trésorier</p>
-                            <a href="tel:0615850183" class="card-text text-decoration-none link-dark">Tel : +33 6 15 85 01 83</a>
+                <div class="col-md-4 d-flex justify-content-center py-3 px-2 order-3 order-md-3">
+                    <div class="card h-100 w-75 border-0 shadow-sm rounded-4 hover-shadow" style="min-height: 100%;">
+                        <div class="d-flex flex-column justify-content-between h-100 p-4 text-center">
+                            <div class="mx-auto mb-3" style="width: 120px; height: 120px; border-radius: 50%; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                                <img src="../assets/assets_club/jerome.png" alt="Jérôme Meltz" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div>
+                                <h5 class="fw-bold mb-1">Jérôme Meltz</h5>
+                                <p class="text-muted mb-2">Trésorier</p>
+                                <a href="tel:0615850183" class="text-decoration-none fw-semibold link-dark">+33 6 15 85 01 83</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -168,11 +193,15 @@
 
         <section id="partenaires" class="container py-5">
             <h2 class="text-center mb-4">Nos partenaires</h2>
-            <div class="d-flex justify-content-center align-items-center p-4 card-partner border">
-                <img src="../assets/assets_club/cercle_vincennes.png" alt="Cercle de Vincennes" class="img-fluid me-4" style="max-height: 150px;">
-                <div>
-                    <h5>Le Cercle de Vincennes</h5>
-                    <p>Le Cercle de Vincennes facilite la collaboration entre les sportifs et développe une culture de l'excellence dans le pentathlon moderne.</p>
+            <div class="card shadow-sm rounded-3 overflow-hidden mb-4 hover-shadow bg-light">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-4 d-flex justify-content-center p-3">
+                        <img src="../assets/assets_club/cercle_vincennes.png" alt="Cercle de Vincennes" class="img-fluid" style="max-height: 150px;">
+                    </div>
+                    <div class="col-md-8 p-4">
+                        <h5 class="card-title">Le Cercle de Vincennes</h5>
+                        <p class="card-text">Le Cercle de Vincennes facilite la collaboration entre les sportifs et développe une culture de l'excellence dans le pentathlon moderne.</p>
+                    </div>
                 </div>
             </div>
         </section>
