@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "js": "^0.1.0",
+    "node": "^22.16.0",
+    "nodemailer": "^7.0.3"
+  },
+  "name": "usmetro_website",
+  "version": "1.0.0",
+  "description": "## Live Demo : https://valentin-meltz.github.io/US_Metro/",
+  "main": "mail.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
