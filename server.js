@@ -14,15 +14,15 @@ app.post("/api/send", async (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "valentin.meltz@gmail.com",
-      pass: "bnwb allk iofj erdb"
+      user: "pentaparisest@gmail.com",
+      pass: "hfui vzsg htrg tkvw"
     }
   });
 
   const mailOptions = {
     from: email,
-    to: "valentin.meltz@gmail.com",
-    subject: "Message depuis le site US Metro",
+    to: "pentaparisest@gmail.com",
+    subject: "[Contact] - Message depuis le site US Metro",
     text: `Nom: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
   };
 
